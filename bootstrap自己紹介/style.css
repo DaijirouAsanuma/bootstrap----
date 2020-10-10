@@ -3,7 +3,23 @@ h1{
     margin-bottom: 30px;
 }
 
-.nav{
-    color: rgb(255, 255, 255);
+.content_a {
+	color: red;
 }
 
+.content_b {
+	color: blue;	
+}
+
+.content_c {
+	color: yellow;	
+}
+
+.content_d {
+	color: green;	
+}
+
+.change_bg {
+    color: rgb(255, 255, 255);
+    /*font-size: 40px;*/
+}
