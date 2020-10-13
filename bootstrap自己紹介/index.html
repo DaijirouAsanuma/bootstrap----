@@ -9,10 +9,12 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+        <!--Font awesome CDN-->
+        <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default"> <!--タブバー-->
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarEexample">
@@ -21,7 +23,9 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <i class="fas fa-bars icon_coler"></i>
+                    <div class="target">
+                        <i class="fas fa-bars icon_coler"></i> <!--ハンバーガーバーのアイコン-->
+                    </div>
                     <a class="navbar-brand" href="#">タイトル</a>
                 </div>               
                 <div class="collapse navbar-collapse" id="navbarEexample">
@@ -32,40 +36,7 @@
                     </ul>
                 </div>
             </div>
-        </nav>        
+        </nav> <!--タブバー終了-->       
         <h1 class="pege_title">DaijirouAsanuma</h1>
-        <div class="container">
-            <div class="raw">
-                <div class="col-sm-8 col-sm-offset-2">
-                    <!-- タブ・メニュー -->
-                    <ul class="nav nav-tabs change_bg">
-                        <li><a href="#sampleContentA" data-toggle="tab">自己紹介</a></li>
-                        <li class="active"><a href="#sampleContentB" data-toggle="tab">経歴</a></li>
-                        <li><a href="#sampleContentC" data-toggle="tab">作品</a></li>
-                        <li><a href="#sampleContentD" data-toggle="tab">日記</a></li>
-                    </ul>
-                    <!-- タブ内容 -->
-                    <div class="tab-content">
-                        <div class="tab-pane" id="sampleContentA">
-                            <p class="content_a">タブＡの内容</p>
-                        </div>
-                        <div class="tab-pane active" id="sampleContentB">
-                            <p class="content_b">タブＢの内容</p>
-                        </div>
-                        <div class="tab-pane" id="sampleContentC">
-                            <p class="content_c">タブＣの内容</p>
-                        </div>
-                        <div class="tab-pane" id="sampleContentD">
-                            <p class="content_d">タブＤの内容</p>
-                        </div>
-                    </div><!-- タブ内容 close -->
-                </div>
-            </div>
-        </div>
-        <form>
-            <input type="button" value="サイコロ" onClick="altRan2()">
-            <span id="sai">-</span>
-        </form>
-        <script type="text/javascript" src="11.js"></script>
     </body>
 </html>
